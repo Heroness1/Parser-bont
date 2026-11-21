@@ -1,0 +1,12 @@
+{
+  "name": "parser-bont",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node fuzz.mjs 600000 7",
+    "bench": "node bench.mjs"
+  }
+}
