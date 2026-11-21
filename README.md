@@ -25,7 +25,7 @@ Current local verification:
 
 - 600,000 seeded random differential cases passed against `reference.js` (seed 7).
 - 335,923 exhaustive short strings (alphabet: `a`, comma, quote, CR, LF, BOM), both header modes, passed against `reference.js`.
-- Internal CPU benchmark and pathological quote stress tests are available in `bench.mjs` and the development notes.
+- `bench.mjs` reports CPU-time comparisons against the provisional oracle; it is not a measurement against the official bounty baseline.
 
 When the official baseline is available:
 
